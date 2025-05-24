@@ -1,4 +1,44 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000028;
+  --subtitle-color: #000028;
+  --title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --decor-color: #FF0070;
+  --button-hover-color: #FF007066;
+  --text-color: #F1B2CE;
+  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-padding: 10px 10px 66px;
+  --menu-padding: 40px;
+  --title-padding: 65px 0 55px;
+  --decorated-padding: 10px;
+  --main-padding: 40px 10px;
+  --description-padding: 40px;
+  --footer-padding: 286px 0 285px;
+  --paragraph-margin: 0;
+  --menu-direction: column;
+}
+
+@media (width >= 768px) {
+  :root {
+    --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --header-padding: 20px 20px 183px 0;
+    --menu-padding: 146px;
+    --title-padding: 173px 0 162px;
+    --decorated-padding: 20px;
+    --main-padding: 60px 20px;
+    --description-padding: 80px;
+    --footer-padding: 463px 0 462px;
+    --paragraph-margin: 10px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --header-padding: 20px 20px 134px 0;
+    --menu-padding: 0;
+    --title-padding: 273px 0 114px;
+    --footer-padding: 319px 0 319px;
+    --menu-direction: row;
+  }
+}
