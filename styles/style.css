@@ -40,7 +40,7 @@
   padding-right: 28px;
   color: var(--decor-color);
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 25px;
   text-align: end;
 }
@@ -71,7 +71,7 @@
   padding: 1.5px 13px 6.5px;
   color: var(--decor-color);
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 18px;
   text-transform: lowercase;
   background-color: transparent;
@@ -110,7 +110,7 @@
   margin-left: var(--paragraph-margin);
   color: var(--subtitle-color);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 23.4px;
   background-color: var(--accent-color);
 }
@@ -127,14 +127,14 @@ main {
   padding-bottom: 20px;
   color: var(--decor-color);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 23.4px;
 }
 
 .description__subtitle {
   color: var(--subtitle-color);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 23.4px;
   background-color: var(--accent-color);
 }
@@ -143,7 +143,7 @@ main {
   padding: 10px 0 20px;
   color: var(--text-color);
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 23.4px;
 }
 
@@ -175,7 +175,7 @@ article:last-of-type .description__text {
 .description__subheading {
   color: var(--subtitle-color);
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 23.4px;
   background-color: var(--accent-color);
 }
