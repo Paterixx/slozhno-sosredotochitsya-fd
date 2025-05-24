@@ -94,6 +94,7 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--decor-color);
+  pointer-events: none;
 }
 
 .header__title {
@@ -215,7 +216,7 @@ article:last-of-type .description__text {
 
   .header__theme-menu {
     grid-column: 2;
-    grid-row: 1 / 2; 
+    grid-row: 1 / 2;
   }
 
   .header__title {
