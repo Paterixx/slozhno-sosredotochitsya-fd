@@ -33,7 +33,7 @@
 
   @media (width >= 768px) {
     :root {
-      --menu-padding: 147px;
+      --menu-padding: 172px;
     }
   }
   
@@ -46,7 +46,7 @@
 
 @media (width >= 768px) {
   :root.theme-light {
-    --menu-padding: 147px;
+    --menu-padding: 172px;
   }
 }
 

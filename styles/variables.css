@@ -23,7 +23,7 @@
   :root {
     --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --header-padding: 20px 20px 183px 0;
-    --menu-padding: 146px;
+    --menu-padding: 172px;
     --title-padding: 173px 0 162px;
     --decorated-padding: 20px;
     --main-padding: 60px 20px;
