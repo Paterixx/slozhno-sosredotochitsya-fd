@@ -30,6 +30,18 @@
   .header__decorated-element {
     display: none;
   }
+
+  @media (width >= 768px) {
+    :root {
+      --menu-padding: 147px;
+    }
+  }
+  
+  @media (width >= 1024px) {
+    :root {
+      --menu-padding: 0;
+    }
+  }
 }
 
 @media (width >= 768px) {
