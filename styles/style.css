@@ -242,7 +242,7 @@ main {
     grid-column: 1 / 2;
   }
 
-  .alt-grid .text-container {
+  .alt-grid .description__container {
     grid-column: 1 / 4;
   }
 
